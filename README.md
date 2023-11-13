@@ -17,12 +17,9 @@ N/A
 
 Navigation bar links to sections on certain topics within the page
 
- ```md
-    ![alt text](assets/images/screenshot-1.png)
-    ```
- ```md
-    ![alt text](assets/images/screenshot-2.png)
-    ```
+![screenshot](assets/images/screenshot-1.png)
+   
+![screenshot](assets/images/screenshot-2.png)
 
 ## Credits
 
