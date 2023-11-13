@@ -10,8 +10,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/* TYPOGRAPHY */
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -34,8 +32,8 @@ p {
 }
 
 /* HEADER */
-/* Logo and navigation bar */
 
+/* Logo */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,6 +50,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navigation bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -71,6 +70,7 @@ header nav ul li {
 
 /* MAIN */
 
+/* Image full width */
 .hero {
     height: 800px;
     width: 100%;
@@ -79,15 +79,15 @@ header nav ul li {
     background-position: center;
 }
 
-/* Section for Search Engine Optimization, Online Reputation Management, Social Media Marketing information*/
-
+/* Divider to contain sections for primary content*/
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section .content {
+/* Sections for primary content: Search Engine Optimization, Online Reputation Management, Social Media Marketing information*/
+.content-primary {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -96,18 +96,17 @@ section .content {
     color: #ffffff;
 }
 
-section .content img {
+.content-primary img {
     max-height: 200px;
 }
 
-section .content h2 {
+.content-primary h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Aside for lead generation, brand awareness, cost management pointers */
-
-aside {
+/* Aside for right sidebar containing secondary pointers: lead generation, brand awareness, cost management */
+.sidebar-right {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -118,18 +117,18 @@ aside {
     background-color: #2589bd;
 }
 
-aside ul li {
+.sidebar-right ul li {
     margin-bottom: 32px;
     color: #ffffff;
     list-style-type: none;
 }
 
-aside ul li h3 {
+.sidebar-right ul li h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside ul li img {
+.sidebar-right ul li img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
