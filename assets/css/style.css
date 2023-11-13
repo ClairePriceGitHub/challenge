@@ -19,7 +19,7 @@ p {
     font-size: 16px;
 }
 
-/* Justification */
+/* Float alignment */
 .float-left {
     float: left;
     margin-right: 25px;
