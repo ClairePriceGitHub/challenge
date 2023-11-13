@@ -19,8 +19,7 @@ p {
     font-size: 16px;
 }
 
-/* IMAGE JUSTIFICATION */
-
+/* Justification */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,11 +78,20 @@ header nav ul li {
     background-position: center;
 }
 
-/* Divider to contain sections for primary content*/
-section {
-    width: 75%;
-    display: inline-block;
+/* Flexbox: Two columns for sections and aside */
+.container {
+    display: flex;
+}
+
+.container-1 {
+    flex: 2 1 auto;
     margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-2 {
+    max-width: 300px;
+    margin-right: 20px;
 }
 
 /* Sections for primary content: Search Engine Optimization, Online Reputation Management, Social Media Marketing information*/
@@ -107,11 +115,7 @@ section {
 
 /* Aside for right sidebar containing secondary pointers: lead generation, brand awareness, cost management */
 .sidebar-right {
-    margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
