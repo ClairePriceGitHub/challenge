@@ -17,6 +17,8 @@ N/A
 
 Navigation bar links to sections on certain topics within the page
 
+https://clairepricegithub.github.io/seo-and-accessibility/
+
 ![screenshot](assets/images/1_screenshot.png)
 
 ## Credits
