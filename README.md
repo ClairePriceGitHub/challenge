@@ -17,9 +17,7 @@ N/A
 
 Navigation bar links to sections on certain topics within the page
 
-![screenshot](assets/images/screenshot-1.png)
-   
-![screenshot](assets/images/screenshot-2.png)
+![screenshot](assets/images/1_screenshot.png)
 
 ## Credits
 
